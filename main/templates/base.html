@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      {% load static %}
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>{% block title %}SJA jeju vex{% endblock %}</title>
+      <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+     <header class="site-header">
+            <div class="container navbar">
+      <div class="brand">
+            <div class="brand-badge"></div>
+            <span>SJA Jeju VEX</span>
+      </div>
+
+      <nav class="nav-links">
+            <a href="#">소개</a>
+            <a href="#">팀</a>
+            <a href="#">활동</a>
+            <a href="#">공지</a>
+            <a href="#">문의</a>
+      </nav>
+
+      <a class="btn btn-primary" href="#">지원하기</a>
+      </header>
+      <main class="container">
+      <section class="hero">
+      <div class="hero-inner">
+            <h1>SJA Robotics Team</h1>
+            <p>대회 준비, 프로젝트 기록, 공지와 지원 안내를 한 곳에서 확인할 수 있습니다.</p>
+            <div class="hero-actions">
+            <a class="btn btn-primary" href="#">공지 보기</a>
+            <a class="btn" href="#">활동 갤러리</a>
+            </div>
+      </div>
+      </section>
+
+      <section class="grid">
+      <article class="card">
+            <h3>Announcement</h3>
+            <p>Tournament schedule, recruitment announcement, team operation guidance</p>
+      </article>
+      <article class="card">
+            <h3>Tournament Records</h3>
+            <p>Participation/award records and robot specs by year</p>
+      </article>
+      <article class="card">
+            <h3>Projects</h3>
+            <p>Code/circuit/design document organization</p>
+      </article>
+      <article class="card">
+            <h3>Contact</h3>
+            <p>Advisor/club contact information</p>
+      </article>
+      </section>
+</body>
